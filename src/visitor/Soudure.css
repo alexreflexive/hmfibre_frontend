@@ -1,0 +1,24 @@
+#soudure {
+  min-height: 100vh;
+  display: flex;
+}
+#soudureGauche {
+  /* background: red; */
+  padding-top: 10vh;
+}
+#soudureDroite {
+  background: url("../../public/images/photo-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: right;
+  display: flex;
+}
+
+#soudureDroite img {
+  object-fit: contain;
+}
+
+.soudure-panneaux {
+  flex: 1;
+}

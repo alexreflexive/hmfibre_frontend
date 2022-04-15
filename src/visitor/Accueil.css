@@ -1,8 +1,31 @@
 #accueil {
   height: 77vh;
-  background: red;
   background-image: url("../../public/images/photo-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+}
+
+.accueil-panneaux {
+  flex: 1;
+}
+#accueilGauche {
+}
+#accueilDroite {
+  display: flex;
+}
+.panneau-texte {
+  width: 75%;
+  margin: auto;
+  color: whitesmoke;
+  padding: 1.5rem;
+  background: rgba(50, 50, 50, 0.5);
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 10px;
+}
+.panneau-texte h4 {
+  font-size: 1.5rem;
+}
+.panneau-texte p {
+  font-size: 1.2rem;
 }

@@ -19,7 +19,6 @@ function App() {
       <Tirage />
       <Pose />
       <Mesure />
-      <section>sectuion</section>
       <footer>Footer</footer>
     </div>
   );
