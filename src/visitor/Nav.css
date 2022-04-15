@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  min-height: 5vh;
+  background: rgba(50, 50, 50, 0.3);
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 1.2rem;
+  height: 100%;
+  padding: 0 1rem;
+  line-height: 2.5rem;
+}
+
+nav a:hover {
+  color: #555;
+  background: var(--container-bg);
+}
