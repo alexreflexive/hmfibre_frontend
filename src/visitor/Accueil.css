@@ -9,8 +9,8 @@
 .accueil-panneaux {
   flex: 1;
 }
-#accueilGauche {
-}
+/* #accueilGauche {
+}*/
 #accueilDroite {
   display: flex;
 }
