@@ -13,6 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Visitor from "./visitor/Visitor";
 import Admin from "./admin/Admin";
 import Planning from "./planning/Planning";
+import Login from "./logging/Login";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<Visitor />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/planning" element={<Planning />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

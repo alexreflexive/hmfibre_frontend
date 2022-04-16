@@ -1,0 +1,22 @@
+.formcontainer {
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px gray;
+  padding: 1rem;
+  /* margin: auto; */
+}
+
+.inputtext {
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
