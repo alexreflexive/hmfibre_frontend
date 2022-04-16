@@ -6,6 +6,8 @@ import Soudure from "./visitor/Soudure";
 import Tirage from "./visitor/Tirage";
 import Pose from "./visitor/Pose";
 import Mesure from "./visitor/Mesure";
+import Contactform from "./visitor/Contactform";
+import Footer from "./visitor/Footer";
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
       <Tirage />
       <Pose />
       <Mesure />
-      <footer>Footer</footer>
+      <Contactform />
+      <Footer />
     </div>
   );
 }

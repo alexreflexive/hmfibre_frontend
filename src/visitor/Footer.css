@@ -12,12 +12,15 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: auto;
+  font-size: 2.2rem;
 }
 
-#socialmedia img {
-  width: 30px;
+#socialmedia a {
+  color: var(--light-text);
 }
 
-#socialmedia img:hover {
+#socialmedia a:hover {
   opacity: 0.4;
+
+  /* font-size: larger; */
 }
