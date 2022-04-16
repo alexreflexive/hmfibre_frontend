@@ -6,14 +6,10 @@
   /* display: flex; */
 }
 
-.accueil-panneaux {
-  /*flex: 1;*/
-}
-/* #accueilGauche {
-}*/
-#accueilDroite {
-  /*display: flex;*/
-}
+/*
+.accueil-panneaux {}
+#accueilDroite {}
+*/
 
 .each-slide div {
   display: flex;
