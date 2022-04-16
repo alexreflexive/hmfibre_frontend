@@ -9,9 +9,9 @@ function Header() {
         <h1>HM Fibre</h1>
       </div>
       <div id="connexion">
-        <a href="#">Administration</a>
-        <a href="#">Planing</a>
-        <a href="#">Connexion</a>
+        <a href="/admin">Administration</a>
+        <a href="/planning">Planning</a>
+        <a href="/login">Connexion</a>
       </div>
     </header>
   );

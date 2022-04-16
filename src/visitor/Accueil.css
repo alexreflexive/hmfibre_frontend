@@ -1,19 +1,25 @@
 #accueil {
   height: 77vh;
-  background-image: url("../../public/images/photo-3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
+  /*background-image: url("../../public/images/photo-3.jpg");*/
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* display: flex; */
 }
 
 .accueil-panneaux {
-  flex: 1;
+  /*flex: 1;*/
 }
 /* #accueilGauche {
 }*/
 #accueilDroite {
-  display: flex;
+  /*display: flex;*/
 }
+
+.each-slide div {
+  display: flex;
+  flex-direction: column;
+}
+
 .panneau-texte {
   width: 75%;
   margin: auto;
