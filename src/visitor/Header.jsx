@@ -18,7 +18,7 @@ function Header() {
       loginLink = (
         <div id="connexion">
           <Link to="/admin">Administration</Link>
-          <Link to="/commercials">Planning</Link>
+          <Link to="/planning">Planning</Link>
           <span className="link" onClick={logout}>
             Déconnexion
           </span>
