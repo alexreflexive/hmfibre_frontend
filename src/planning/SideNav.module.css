@@ -1,0 +1,21 @@
+.navSector {
+  margin: 5.5rem 0.5rem;
+}
+
+.navItem {
+  margin: -1rem 0.5rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.navItem:hover {
+  background: #777;
+  cursor: pointer;
+}
+
+.navItemActive {
+  background: whitesmoke;
+  color: #777;
+}

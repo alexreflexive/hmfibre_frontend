@@ -8,14 +8,18 @@ import OnePageSN from "./OnePageSN";
 // import Home from "./Components/Home";
 
 function Admin() {
-  const [pageAdmin, setPageAdmin] = useState("Accueil");
+  const [pageAdmin, setPageAdmin] = useState("OnePage");
   const [pageTitle, setPageTitle] = useState("Textes de OnePage");
   let displayPage;
 
   if (pageAdmin === "OnePage") {
     displayPage = <OnePage />;
-  } else if (pageAdmin === "Autre 1") {
-    console.log("Autre 1");
+  } else if (pageAdmin === "OnePageImages") {
+    displayPage = <OnePageImages />;
+  } else if (pageAdmin === "OnePageSN") {
+    displayPage = <OnePageSN />;
+  } else {
+    console.error("Option inconnue");
   }
   return (
     <div style={{ display: "flex" }}>
@@ -32,7 +36,6 @@ function Admin() {
         >
           <Link to="/">Déconnexion [Pseudo_de_l_admin]</Link>
         </header>
-        <h1 style={{ textAlign: "center" }}>{pageAdmin}</h1>
         {displayPage}
       </main>
     </div>

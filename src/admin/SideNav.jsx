@@ -36,13 +36,16 @@ function SideNav({ pageAdmin, setPageAdmin }) {
       <div className={sNav.navSector}>
         <h4 style={{ textAlign: "center" }}>OnePage</h4>
         <div className={sNav.navItem} onClick={() => setPageAdmin("OnePage")}>
-          OnePage
+          Textes
         </div>
-        <div className={sNav.navItem} onClick={() => setPageAdmin("Autre 1")}>
-          Autre 1
+        <div
+          className={sNav.navItem}
+          onClick={() => setPageAdmin("OnePageImages")}
+        >
+          Images
         </div>
-        <div className={sNav.navItem} onClick={() => setPageAdmin("Autre 2")}>
-          Autre 2
+        <div className={sNav.navItem} onClick={() => setPageAdmin("OnePageSN")}>
+          Réseaux sociaux
         </div>
       </div>
     </div>

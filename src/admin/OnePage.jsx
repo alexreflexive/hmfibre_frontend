@@ -22,6 +22,8 @@ function OnePage() {
 
   return (
     <div>
+      <h1 style={{ textAlign: "center" }}>Textes de OnePage</h1>
+
       <TextForm
         name={texts.accueil.name}
         title={titleAccueil}
