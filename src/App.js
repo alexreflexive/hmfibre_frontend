@@ -18,17 +18,6 @@ import Login from "./logging/Login";
 function App() {
   return (
     <div className="App">
-      {/* <p className="dark-background">lorem ipsum</p>
-      <p className="light-background">lorem ipsum</p> */}
-      {/* <Header />
-      <Nav />
-      <Accueil />
-      <Soudure />
-      <Tirage />
-      <Pose />
-      <Mesure />
-      <Contactform />
-      <Footer /> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Visitor />} />

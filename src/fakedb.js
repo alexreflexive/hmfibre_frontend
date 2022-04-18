@@ -124,3 +124,39 @@ const collaborateurs = [
     poste: "Commercial",
   },
 ];
+
+export function getOnePageTexts() {
+  return onePageTexts;
+}
+const onePageTexts = {
+  accueil: {
+    name: "Accueil",
+    title: "Un service de qualité",
+    content:
+      "Fort de nos expériences envers plusieurs sociétés du milieu des télécoms, HM Fibre souhaite créer un partenariat avec plusieurs entreprises pour les accompagner dans leur projet.",
+  },
+  soudure: {
+    name: "Soudure",
+    title: "Soudure",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque nec arcu eget lacinia. Aenean consectetur, erat ac pretium bibendum, nisl tellus ullamcorper felis, in faucibus libero felis quis purus. Curabitur scelerisque odio et maximus vestibulum. Suspendisse risus nulla, hendrerit in turpis viverra, aliquam gravida quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet tellus ut erat facilisis mattis et vitae nisl. Fusce rutrum enim at sapien condimentum, porta venenatis lorem consectetur.",
+  },
+  tirages: {
+    name: "Tirages",
+    title: "Tirages",
+    content:
+      "Entendu, vieux, ridé et ratatiné sous l'effet de son imagination. Vieux sorcier, se préparent dans le plus profond. Disons trente ou quarante pas de lui déplaire, déranger des calculs. Arrive un moment où le maire et sa noble compagnie. Souffrez que nous ayons quitté les eaux territoriales de chaque autre littoral constituent sa frontière, les seuls que les douze billets impayés, traités inexécutés, reconnaissances restées vaines, engagements non tenus. Creuse, tu ne devrais pas me plaindre.",
+  },
+  pose: {
+    name: "Pose",
+    title: "Pose de boîtiers",
+    content:
+      "Quisque ut condimentum velit. Sed venenatis, lacus eget pharetra porttitor, risus sem sodales nisl, a dignissim ex orci nec nibh. Ut gravida rutrum pulvinar. Nam eleifend facilisis volutpat. Donec convallis rutrum efficitur. Nulla sagittis erat at scelerisque auctor. In eget pulvinar odio.",
+  },
+  mesures: {
+    name: "Mesures",
+    title: "Mesures",
+    content:
+      "Nam blandit leo eget sem pulvinar, in finibus neque luctus. Suspendisse a nulla tincidunt, convallis tellus sed, semper felis. Mauris sit amet laoreet odio. Duis lectus mauris, imperdiet in tincidunt at, sagittis lobortis diam. Etiam pharetra convallis risus non semper. Donec ut semper libero. Duis consectetur purus cursus turpis volutpat sagittis. Praesent luctus ornare pulvinar. Aliquam pretium, tortor a suscipit rhoncus, ex lacus varius libero, id maximus velit lorem nec nunc.",
+  },
+};
