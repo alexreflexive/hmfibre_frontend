@@ -9,7 +9,7 @@ import {
   faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
 
-function SideNav({ pageAdmin, setPageAdmin }) {
+function SideNav({ pagePlanning, setPagePlanning }) {
   const navigate = useNavigate();
   return (
     <div
@@ -33,20 +33,23 @@ function SideNav({ pageAdmin, setPageAdmin }) {
         </div>
       </div>
       <div className={sNav.navSector}>
-        <div className={sNav.navItem} onClick={() => setPageAdmin("Planning")}>
+        <div
+          className={sNav.navItem}
+          onClick={() => setPagePlanning("planningTable")}
+        >
           <FontAwesomeIcon icon={faCalendarDays} />
           <span style={{ marginLeft: "0.5rem" }}>Planning</span>
         </div>
         <div
           className={sNav.navItem}
-          onClick={() => setPageAdmin("Liste des intervenants")}
+          onClick={() => setPagePlanning("intervenants")}
         >
           <FontAwesomeIcon icon={faUser} />
           <span style={{ marginLeft: "0.5rem" }}>Intervenants</span>
         </div>
         <div
           className={sNav.navItem}
-          onClick={() => setPageAdmin("Liste des commerciaux")}
+          onClick={() => setPagePlanning("commerciaux")}
         >
           <FontAwesomeIcon icon={faUserTie} />
           <span style={{ marginLeft: "0.5rem" }}>Commerciaux</span>

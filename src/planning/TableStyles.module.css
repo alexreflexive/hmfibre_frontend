@@ -1,0 +1,32 @@
+.tabItems {
+}
+
+.tabItems tr {
+  height: 2rem;
+}
+
+.tabItems td {
+  padding: 5px;
+}
+
+.tabItems tr:nth-child(even) {
+  background: #ddd;
+}
+.tabItems tr:nth-child(odd) {
+  background: #bbb;
+}
+
+.tabItems tr:hover {
+  background: #eee;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.actionIcon:hover {
+  color: #888;
+  cursor: pointer;
+}
