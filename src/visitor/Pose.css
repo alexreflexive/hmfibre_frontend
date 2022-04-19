@@ -33,3 +33,27 @@
   width: 85%;
   color: dimgray;
 }
+
+@media only screen and (max-width: 750px) {
+  #pose {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    width: 95%;
+    background: rgba(50, 50, 50, 0.5);
+    font-family: "Source Sans Pro", sans-serif;
+    border-radius: 10px;
+  }
+
+  .pose-texte {
+    width: 85%;
+    color: inherit;
+  }
+
+  .photoNO,
+  .photoNE,
+  .photoSO {
+    display: none;
+  }
+}

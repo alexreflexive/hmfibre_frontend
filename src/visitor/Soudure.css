@@ -22,3 +22,17 @@
 .soudure-panneaux {
   flex: 1;
 }
+
+@media only screen and (max-width: 750px) {
+  #soudure {
+    min-height: inherit;
+  }
+
+  #soudureDroite {
+    display: none;
+  }
+
+  #soudureGauche {
+    padding-top: 0;
+  }
+}

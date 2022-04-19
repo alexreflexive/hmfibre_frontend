@@ -11,3 +11,17 @@
   color: whitesmoke;
   padding: 1rem;
 }
+
+@media only screen and (max-width: 750px) {
+  #tirage {
+    background: none;
+    width: 95%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tirageTexte {
+    width: 100%;
+  }
+}

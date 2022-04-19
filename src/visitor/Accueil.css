@@ -1,5 +1,5 @@
 #accueil {
-  height: 77vh;
+  min-height: 77vh;
 }
 
 /*
@@ -26,4 +26,38 @@
 }
 .panneau-texte p {
   font-size: 1.2rem;
+}
+
+.smartphone-text {
+  display: none;
+  color: gray;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 750px) {
+  #accueil {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url("../../public/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2; */
+  }
+
+  .slide-container {
+    display: none;
+  }
+
+  .smartphone-text {
+    display: block;
+  }
+
+  .panneau-texte {
+    width: 95%;
+  }
 }

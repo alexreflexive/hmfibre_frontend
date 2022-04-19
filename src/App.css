@@ -24,11 +24,6 @@ nav {
 }
 section {
   min-height: 100vh;
-  /* background: blue; */
-}
-footer {
-  /* min-height: 100vh; */
-  /* background: violet; */
 }
 
 /* TEXTES */
@@ -42,4 +37,11 @@ footer {
 
 .infotextes p {
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 750px) {
+  section {
+    min-height: inherit;
+    margin-bottom: 1.5rem;
+  }
 }

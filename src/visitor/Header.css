@@ -34,3 +34,14 @@
   color: whitesmoke;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 750px) {
+  #logo h1 {
+    display: none;
+  }
+
+  #logo img {
+    width: 96px;
+    height: 96px;
+  }
+}

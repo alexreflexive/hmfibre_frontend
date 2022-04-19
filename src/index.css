@@ -27,3 +27,9 @@ html {
   --light-bg: whitesmoke;
   --dark-bg: #333;
 }
+
+@media only screen and (max-width: 1200px) {
+  #root {
+    width: 100%;
+  }
+}

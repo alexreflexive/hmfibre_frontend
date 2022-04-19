@@ -52,6 +52,11 @@ function Accueil() {
           ))}
         </Slide>
       </div>
+      <div className="smartphone-text">
+        Fort de nos expériences envers plusieurs sociétés du milieu des
+        télécoms, Hm Fibre souhaite créer un partenariat avec plusieurs
+        entreprises pour les accompagner dans leur projet.
+      </div>
     </div>
   );
 }

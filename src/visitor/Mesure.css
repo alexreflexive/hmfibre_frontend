@@ -2,3 +2,27 @@
   display: flex;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 750px) {
+  #mesure {
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    /* padding: 1.5rem; */
+    width: 95%;
+    background: rgba(50, 50, 50, 0.5);
+    font-family: "Source Sans Pro", sans-serif;
+    border-radius: 10px;
+  }
+
+  .infotextes {
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  /* Section mesure */
+  #mesure img {
+    display: none;
+  }
+}

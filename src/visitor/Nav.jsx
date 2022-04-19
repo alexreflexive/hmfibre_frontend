@@ -4,7 +4,12 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav>
-      <a href="#">Accueil</a>
+      <a href="/#" className="default-nav-item">
+        Accueil
+      </a>
+      <a href="#accueil" className="hidden-nav-item">
+        Accueil
+      </a>
       <a href="#soudure">Soudure</a>
       <a href="#tirage">Tirage</a>
       <a href="#pose">Boîtiers</a>

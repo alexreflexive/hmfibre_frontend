@@ -27,6 +27,22 @@ form {
   background: whitesmoke;
 }
 
+@media only screen and (max-width: 1200px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #formContainer {
+    padding: 5px;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
 input {
   width: 100%;
   height: 2.5rem;
