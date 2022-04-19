@@ -19,8 +19,6 @@ function Intervenants() {
   // Dispatche s'il s'agit d'un nouveau enregistrement ou d'une mise à jour.
   const save = (event) => {
     event.preventDefault();
-    console.log("Action type : " + event.target.actionType.value);
-    console.log("actionType : " + actionType);
     if (event.target.actionType.value === "new") saveNewIntervenant();
     else if (event.target.actionType.value === "edit") saveEditIntervenant();
     else console.error("Option inconnue.");
@@ -77,6 +75,7 @@ function Intervenants() {
     setIntervenants(intervenants.filter((item) => item._id !== id));
   };
 
+  // Réinitialisation du formulaire.
   const reset = () => {
     setId(0);
     setNom();
@@ -115,7 +114,6 @@ function Intervenants() {
                     className={tabStyle.actionIcon}
                     title="Supprimer"
                     onClick={() => {
-                      console.log("deleteaction");
                       deleteAction(intervenant._id);
                     }}
                   />
@@ -124,7 +122,6 @@ function Intervenants() {
                     className={tabStyle.actionIcon}
                     title="Modifier"
                     onClick={() => {
-                      console.log("editaction");
                       editAction(intervenant._id);
                     }}
                   />
@@ -139,7 +136,6 @@ function Intervenants() {
                 className={tabStyle.actionIcon}
                 title="Ajouter"
                 onClick={() => {
-                  console.log("addaction");
                   addAction();
                 }}
               />
