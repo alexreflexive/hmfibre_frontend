@@ -1,10 +1,11 @@
 # HM Fibre React
 
-** Projet pour la société HM Fibre, ceci est le frontend en ReactJS.**
+**Projet pour la société HM Fibre, ceci est le frontend en ReactJS.**
 
 ## La version HTML/CSS
 
 Les code : https://github.com/alexreflexive/hmfibre_html
+
 Dans Pages : https://alexreflexive.github.io/hmfibre_html/
 
 ## Tester HM Fibre
@@ -14,6 +15,7 @@ Cloner ou télécharger le zip dans un dossier local. Dézipper si besoin.
 En ligne de commande:
 
 `$ npm install`
+
 `$ npm start`
 
 ## Rôles
