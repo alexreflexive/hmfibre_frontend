@@ -41,6 +41,7 @@ const collaborateurs = [
     email: "pierre@dupond.fr",
     telephone: "0000000000",
     poste: "Intervenant",
+    idColor: "#f55",
   },
   {
     _id: 2,
@@ -49,6 +50,7 @@ const collaborateurs = [
     email: "jean@lepont.fr",
     telephone: "0000000000",
     poste: "Intervenant",
+    idColor: "#5d5",
   },
   {
     _id: 3,
@@ -57,6 +59,7 @@ const collaborateurs = [
     email: "selim@derkaoui.fr",
     telephone: "0000000000",
     poste: "Intervenant",
+    idColor: "#55f",
   },
   {
     _id: 4,
@@ -65,6 +68,7 @@ const collaborateurs = [
     email: "thimotee@banka.fr",
     telephone: "0000000000",
     poste: "Intervenant",
+    idColor: "#992",
   },
   {
     _id: 5,
@@ -73,6 +77,7 @@ const collaborateurs = [
     email: "erwan@chatelin.fr",
     telephone: "0000000000",
     poste: "Intervenant",
+    idColor: "#f5f",
   },
   {
     _id: 6,
@@ -81,6 +86,7 @@ const collaborateurs = [
     email: "nathalie@moineau.fr",
     telephone: "0000000000",
     poste: "Commercial",
+    idColor: "#ccc",
   },
   {
     _id: 7,
@@ -89,6 +95,7 @@ const collaborateurs = [
     email: "benedicte@loiseau.fr",
     telephone: "0000000000",
     poste: "Commercial",
+    idColor: "#ccc",
   },
   {
     _id: 8,
@@ -97,6 +104,7 @@ const collaborateurs = [
     email: "yasmine@saidi.fr",
     telephone: "0000000000",
     poste: "Commercial",
+    idColor: "#ccc",
   },
   {
     _id: 9,
@@ -105,6 +113,7 @@ const collaborateurs = [
     email: "marie@ngo.fr",
     telephone: "0000000000",
     poste: "Commercial",
+    idColor: "#ccc",
   },
   {
     _id: 10,
@@ -113,6 +122,7 @@ const collaborateurs = [
     email: "delphine@hrondelle.fr",
     telephone: "0000000000",
     poste: "Commercial",
+    idColor: "#ccc",
   },
 
   {
@@ -122,6 +132,7 @@ const collaborateurs = [
     email: "yumi@kimono.fr",
     telephone: "0000000000",
     poste: "Commercial",
+    idColor: "#ccc",
   },
 ];
 
@@ -160,3 +171,29 @@ const onePageTexts = {
       "Nam blandit leo eget sem pulvinar, in finibus neque luctus. Suspendisse a nulla tincidunt, convallis tellus sed, semper felis. Mauris sit amet laoreet odio. Duis lectus mauris, imperdiet in tincidunt at, sagittis lobortis diam. Etiam pharetra convallis risus non semper. Donec ut semper libero. Duis consectetur purus cursus turpis volutpat sagittis. Praesent luctus ornare pulvinar. Aliquam pretium, tortor a suscipit rhoncus, ex lacus varius libero, id maximus velit lorem nec nunc.",
   },
 };
+
+export function getEvenements() {
+  return [
+    {
+      title: "Salon numérique",
+      start: "2022-04-27T10:00:00",
+      end: "2022-04-27T16:00:00",
+      comments: "Pour rencontrer tous les professionnels du numérique.",
+      color: "#d33",
+    },
+    {
+      title: "Salon de la fibre optique",
+      start: "2022-04-27T12:00:00",
+      end: "2022-04-27T18:00:00",
+      comments: "Salon où FHFibre tient un stand.",
+      color: "#3d3",
+    },
+    {
+      title: "Salon du BTP",
+      start: "2022-04-27T14:00:00",
+      end: "2022-04-27T20:00:00",
+      comments: "Prospection indispensable.",
+      color: "#33d",
+    },
+  ];
+}
